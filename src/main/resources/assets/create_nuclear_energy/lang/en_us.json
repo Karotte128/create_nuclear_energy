@@ -6,7 +6,7 @@
   "item.create_nuclear_energy.lead_nugget": "Lead Nugget",
   "item.create_nuclear_energy.lead_ingot": "Lead Ingot",
   "item.create_nuclear_energy.nuclear_fuel": "Nuclear Fuel",
-  "item.create_nuclear_energy.lead_casing": "Lead Casing",
-  "item.create_nuclear_energy.lead_glass": "Lead Glass",
+  "block.create_nuclear_energy.lead_casing": "Lead Casing",
+  "block.create_nuclear_energy.lead_glass": "Lead Glass",
   "itemGroup.create_nuclear_energy": "Create: Nuclear Energy"
 }
