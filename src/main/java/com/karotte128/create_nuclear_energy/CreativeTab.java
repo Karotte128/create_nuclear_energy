@@ -29,6 +29,9 @@ public class CreativeTab {
 	    entries.accept(ItemRegistry.LEAD_INGOT);
 	    entries.accept(ItemRegistry.LEAD_NUGGET);
             entries.accept(ItemRegistry.NUCLEAR_FUEL);
+            entries.accept(ItemRegistry.RAW_URANIUM);
+            entries.accept(ItemRegistry.RAW_THORIUM);
+            entries.accept(ItemRegistry.RAW_PLUTONIUM);
 	    entries.accept(BlockRegistry.LEAD_CASING);
 	    entries.accept(BlockRegistry.LEAD_GLASS);
         }
