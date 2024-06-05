@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "create_nuclear_energy",
+  "version": "${version}",
+  "name": "Create: Nuclear Energy",
+  "description": "This mod adds nuclear energy to Create!",
+  "authors": [
+    "Karotte128"
+  ],
+  "contact": {
+    "sources": "coming soon"
+  },
+  "license": "GPL",
+  "icon": "assets/create_nuclear_energy/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.karotte128.create_nuclear_energy.CreateNuclearEnergy"
+    ]
+  },
+  "mixins": [
+    "create_nuclear_energy.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
