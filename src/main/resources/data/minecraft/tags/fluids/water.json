@@ -1,0 +1,13 @@
+{
+	"replace": false,
+	"values": [
+		"create_nuclear_energy:acid",
+		"create_nuclear_energy:flowing_acid",
+		"create_nuclear_energy:concentrated_acid",
+		"create_nuclear_energy:flowing_concentrated_acid",
+		"create_nuclear_energy:hot_water",
+		"create_nuclear_energy:flowing_hot_water"
+
+
+	]
+}

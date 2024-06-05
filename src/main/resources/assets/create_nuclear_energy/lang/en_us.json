@@ -1,5 +1,15 @@
 {
   "item.create_nuclear_energy.acid_powder": "Acid Powder",
-
+  "item.create_nuclear_energy.acid_bucket": "Acid Bucket",
+  "item.create_nuclear_energy.concentrated_acid_bucket": "Concentrated Acid Bucket",
+  "item.create_nuclear_energy.hot_water_bucket": "Hot Water Bucket",
+  "item.create_nuclear_energy.lead_nugget": "Lead Nugget",
+  "item.create_nuclear_energy.lead_ingot": "Lead Ingot",
+  "item.create_nuclear_energy.nuclear_fuel": "Nuclear Fuel",
+  "block.create_nuclear_energy.lead_casing": "Lead Casing",
+  "block.create_nuclear_energy.lead_glass": "Lead Glass",
+  "block.create_nuclear_energy.acid": "Acid",
+  "block.create_nuclear_energy.concentrated_acid": "Concentrated Acid",
+  "block.create_nuclear_energy.hot_water": "Hot Water",
   "itemGroup.create_nuclear_energy": "Create: Nuclear Energy"
 }
