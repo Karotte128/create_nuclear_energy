@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create_nuclear_energy:raw_thorium"
+    },
+  ],
+  "results": [
+    {
+      "item": "create_nuclear_energy:nuclear_fuel",
+      "nbt": {"quality": 3} 
+   }
+  ]
+}
