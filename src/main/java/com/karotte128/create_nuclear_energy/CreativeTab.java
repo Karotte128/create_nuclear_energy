@@ -28,9 +28,9 @@ public class CreativeTab {
 	    entries.accept(ItemRegistry.ACID_POWDER);
 	    entries.accept(ItemRegistry.LEAD_INGOT);
 	    entries.accept(ItemRegistry.LEAD_NUGGET);
+            entries.accept(ItemRegistry.NUCLEAR_FUEL);
 	    entries.accept(BlockRegistry.LEAD_CASING);
 	    entries.accept(BlockRegistry.LEAD_GLASS);
-	    entries.accept(BlockRegistry.COMPRESSED_COBBLESTONE);
         }
     }
 
