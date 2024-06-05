@@ -8,5 +8,8 @@
   "item.create_nuclear_energy.nuclear_fuel": "Nuclear Fuel",
   "block.create_nuclear_energy.lead_casing": "Lead Casing",
   "block.create_nuclear_energy.lead_glass": "Lead Glass",
+  "block.create_nuclear_energy.acid": "Acid",
+  "block.create_nuclear_energy.concentrated_acid": "Concentrated Acid",
+  "block.create_nuclear_energy.hot_water": "Hot Water",
   "itemGroup.create_nuclear_energy": "Create: Nuclear Energy"
 }
