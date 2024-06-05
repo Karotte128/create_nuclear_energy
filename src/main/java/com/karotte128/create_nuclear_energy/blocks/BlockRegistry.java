@@ -34,11 +34,6 @@ public class BlockRegistry {
 	    .simpleItem()
 	    .register();
 
-    public static final BlockEntry<Block> COMPRESSED_COBBLESTONE = REGISTRATE
-	    .block("compressed_cobblestone", Block::new)
-	    .simpleItem()
-	    .register();
-
     public static void register() {}
 
 }
