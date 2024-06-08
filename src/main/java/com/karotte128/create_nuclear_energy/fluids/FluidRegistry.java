@@ -29,7 +29,7 @@ public class FluidRegistry {
     public static final FluidEntry<SimpleFlowableFluid.Flowing> ACID
 	    = REGISTRATE.fluid("acid", new ResourceLocation("create_nuclear_energy:block/acid_still"), new ResourceLocation("create_nuclear_energy:block/acid_flow"))
 //                    .lang("Acid")
-                    .fluidAttributes(() -> new CreateAttributeHandler("block.create_nuclear_power.acid", 1500, 500))
+                    .fluidAttributes(() -> new CreateAttributeHandler("block.create_nuclear_energy.acid", 1500, 500))
                     .fluidProperties(p -> p.levelDecreasePerBlock(1)
                             .tickRate(25)
                             .flowSpeed(5)
@@ -51,7 +51,7 @@ public class FluidRegistry {
     public static final FluidEntry<SimpleFlowableFluid.Flowing> CONCENTRATED_ACID
 	    = REGISTRATE.fluid("concentrated_acid", new ResourceLocation("create_nuclear_energy:block/concentrated_acid_still"), new ResourceLocation("create_nuclear_energy:block/concentrated_acid_flow"))
 //                    .lang("Concentrated Acid")
-                    .fluidAttributes(() -> new CreateAttributeHandler("block.create_nuclear_power.concentrated_acid", 1500, 500))
+                    .fluidAttributes(() -> new CreateAttributeHandler("block.create_nuclear_energy.concentrated_acid", 1500, 500))
                     .fluidProperties(p -> p.levelDecreasePerBlock(1)
                             .tickRate(25)
                             .flowSpeed(5)
@@ -69,19 +69,19 @@ public class FluidRegistry {
                     .register();
 
 
-//Hot Water
-    public static final FluidEntry<SimpleFlowableFluid.Flowing> HOT_WATER
-	    = REGISTRATE.fluid("hot_water", new ResourceLocation("create_nuclear_energy:block/hot_water_still"), new ResourceLocation("create_nuclear_energy:block/hot_water_flow"))
-//                    .lang("Hot Water")
-                    .fluidAttributes(() -> new CreateAttributeHandler("block.create_nuclear_power.hot_water", 1500, 500))
+//Coolant
+    public static final FluidEntry<SimpleFlowableFluid.Flowing> COOLANT
+	    = REGISTRATE.fluid("coolant", new ResourceLocation("create_nuclear_energy:block/coolant_still"), new ResourceLocation("create_nuclear_energy:block/coolant_flow"))
+//                    .lang("coolant")
+                    .fluidAttributes(() -> new CreateAttributeHandler("block.create_nuclear_energy.coolant", 1500, 500))
                     .fluidProperties(p -> p.levelDecreasePerBlock(1)
                             .tickRate(25)
                             .flowSpeed(5)
                             .blastResistance(100f))
                     .source(SimpleFlowableFluid.Source::new)
-//                    .tag(AllTags.forgeFluidTag("hot_water"))
-                    .onRegisterAfter(Registries.ITEM, hot_water -> {
-                        Fluid source = hot_water.getSource();
+//                    .tag(AllTags.forgeFluidTag("coolant"))
+                    .onRegisterAfter(Registries.ITEM, coolant -> {
+                        Fluid source = coolant.getSource();
 
                         FluidStorage.combinedItemApiProvider(source.getBucket()).register(context ->
                                 new FullItemFluidStorage(context, bucket -> ItemVariant.of(BUCKET), FluidVariant.of(source), FluidConstants.BUCKET));

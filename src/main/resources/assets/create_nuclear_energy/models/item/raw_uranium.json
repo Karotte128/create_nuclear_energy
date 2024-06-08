@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "create_nuclear_energy:item/uranium_powder"
+    "layer0": "create_nuclear_energy:item/raw_uranium"
   }
 }
