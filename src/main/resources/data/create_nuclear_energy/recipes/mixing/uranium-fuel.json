@@ -2,13 +2,13 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "create_nuclear_energy:raw_thorium"
+      "item": "create_nuclear_energy:raw_uranium"
     }
   ],
   "results": [
     {
       "item": "create_nuclear_energy:nuclear_fuel",
-      "nbt": {"quality": 2} 
+      "nbt": {"quality": 3} 
    }
   ]
 }
