@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "fluid": "create_nuclear_energy:concentrated_acid",
+      "amount": 810
+    }
+  ],
+  "results": [
+    {
+      "item": "create_nuclear_energy:lead_ingot"
+    }
+  ]
+}

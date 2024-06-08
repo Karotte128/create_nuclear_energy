@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "create_nuclear_energy:concentrated_acid",
+      "amount": 8100
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 72900
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_nuclear_energy:acid",
+      "amount": 81000
+    }
+  ]
+}
