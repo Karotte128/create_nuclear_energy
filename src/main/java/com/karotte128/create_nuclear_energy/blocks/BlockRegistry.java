@@ -3,6 +3,8 @@ package com.karotte128.create_nuclear_energy.blocks;
 import static com.karotte128.create_nuclear_energy.CreateNuclearEnergy.REGISTRATE;
 import com.karotte128.create_nuclear_energy.CreativeTab;
 import com.karotte128.create_nuclear_energy.blocks.LeadCasingBlocks;
+import com.karotte128.create_nuclear_energy.blocks.RadiationSensorBlock;
+
 
 //import com.simibubi.create.AllCreativeModeTabs;
 import com.simibubi.create.foundation.data.AssetLookup;
@@ -34,6 +36,12 @@ public class BlockRegistry {
             .addLayer(() -> RenderType::cutout)
             .simpleItem()
 	    .register();
+
+
+    public static final BlockEntry<RadiationSensorBlock> RADIATION_SENSOR = REGISTRATE
+            .block("radiation_sensor", RadiationSensorBlock::new)
+            .simpleItem()
+            .register();
 
     public static void register() {}
 
