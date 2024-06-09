@@ -24,7 +24,7 @@ public class CreativeTab {
 
             entries.accept(FluidRegistry.ACID.get().getBucket());
 	    entries.accept(FluidRegistry.CONCENTRATED_ACID.get().getBucket());
-	    entries.accept(FluidRegistry.HOT_WATER.get().getBucket());
+	    entries.accept(FluidRegistry.COOLANT.get().getBucket());
 	    entries.accept(ItemRegistry.ACID_POWDER);
 	    entries.accept(ItemRegistry.LEAD_INGOT);
 	    entries.accept(ItemRegistry.LEAD_NUGGET);

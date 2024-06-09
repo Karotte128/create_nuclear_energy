@@ -31,7 +31,9 @@ public class BlockRegistry {
 
     public static final BlockEntry<Block> LEAD_GLASS = REGISTRATE
 	    .block("lead_glass", Block::new)
-	    .simpleItem()
+	    .properties(BlockBehaviour.Properties::noOcclusion)
+            .addLayer(() -> RenderType::cutout)
+            .simpleItem()
 	    .register();
 
     public static void register() {}
